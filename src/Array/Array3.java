@@ -9,7 +9,7 @@ public class Array3 {
 
         System.out.println("enter the number of Row ");
         r=sc.nextInt();
-        System.out.println("Enter the number of colomn");
+        System.out.println("Enter the number of column");
         c=sc.nextInt();
         int[][]arr=new int[r][c] ;
         System.out.println(" Enter the array elements ");
