@@ -7,5 +7,6 @@ public class Main {
         Shape square = new Square();
 
         square.area();
+
     }
 }
