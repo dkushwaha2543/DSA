@@ -1,7 +1,7 @@
 package Questions.Day12;
 
 import java.util.Scanner;
-
+// Sum of Digit
 public class SumOfDigit {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
