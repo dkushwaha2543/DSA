@@ -14,8 +14,12 @@ public class Account {
             balance=balance-amount;
         }
         else {
-            System.err.println("Your balance is less then amount");
+            System.err.println(" Your balance is less then amount "+balance);
         }
+    }
+    // Account holder name
+    public void AccHoldrName(){
+        System.out.println("Account holder name is Deepak Kushwaha");
     }
     //Get Balance
     public double getBalance() {
