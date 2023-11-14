@@ -10,7 +10,12 @@ public class Account {
     }
     // Withdraw
     public void withdraw(double amount){
-        balance=balance-amount;
+        if (amount<=balance){
+            balance=balance-amount;
+        }
+        else {
+            System.err.println("Your balance is less then amount");
+        }
     }
     //Get Balance
     public double getBalance() {

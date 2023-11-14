@@ -11,7 +11,7 @@ public class BankMain {
         cust2.deposit(10);
         System.out.println(cust1.getBalance());
         System.out.println(cust2.getBalance());
-        cust1.withdraw(50);
+        cust1.withdraw(180);
         System.out.println(cust1.getBalance());
     }
 }
