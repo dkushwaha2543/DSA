@@ -20,8 +20,8 @@ public class SeparatEvenOddArr {
                 oddCount++;
             }
         }
-        int[]even=new int[evenCount];
-        int[]odd=new int[oddCount];
+        int[]even=new int[evenCount];//creating a new Array for even elements
+        int[]odd=new int[oddCount];// Creating a new Array for odd elements
         int evenIndex=0;
         int oddIndex=0;
         for (int num:arr){
