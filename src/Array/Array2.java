@@ -8,7 +8,7 @@ public class Array2 {
        int c;
         System.out.println(" Enter the number of Row");
        r=sc.nextInt();
-        System.out.println("Enter the number colomn");
+        System.out.println("Enter the number column");
        c=sc.nextInt();
        int[][]arr=new int[r][c];
         System.out.println(" Enter the elements of array ");
