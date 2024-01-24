@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 // Passing Array in function
-public class PassingFunInArr {
+public class PassingArrInFun {
     public static void main(String[] args) {
         int[]nums = {3,4,5,6};
         System.out.println(Arrays.toString(nums));
